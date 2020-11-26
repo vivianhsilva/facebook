@@ -1,0 +1,376 @@
+#corpo{
+	margin: 0px;
+}
+
+#pagelet_bluebar{ /* resolvi o problema do afastamento do header com o body*/
+	width: 1237px;
+	height: 83px;
+	border-bottom:1px; 
+}
+
+#cabecalho{
+	width: 1349px;
+	height: 82px;
+	background-color:  #3e5b99;
+	margin: 0px;
+	display: inline-block;
+	border-bottom: 1px solid #1b326d;
+}
+
+
+
+#caixatitulo{
+	width: 980px;
+	height: 65px;
+	margin: auto;
+	padding-top: 13px;
+}
+
+#caixatitulo table{
+	width: 391px;
+	height: 65px;
+	display: inline-block;
+	float: right;	
+}	
+
+img#logo{
+	float: left;
+	margin-top: 15px;	
+}
+
+.emailsenha{
+	font-family:	helvetica,​arial,​sans-serif;
+	font-size:	12px;
+	font-weight: 400;
+	color:	white;
+	line-height: 16.0833px;
+	padding:  0px 0px 4px;
+	width: 96px;
+	height: 14px;
+	margin:0px;
+	display: inline-block;
+}
+
+td.problema{
+	padding: 4px 0px 0px 14px;
+	width: 150px;
+	height: 16px;
+	
+}
+
+.problema{
+	width: 68px;
+	height: 14px;
+	margin: 0px;
+	color: #9daccb;
+}
+
+#email, #senha{
+	width:142px;
+	height: 15px;
+	padding: 3px 3px 4px;
+	border: 1px solid black;
+	margin:0;
+	display: inline-block;
+}
+
+
+#caixatitulo td{
+	font-family:	helvetica,​arial,​sans-serif;
+	font-size:	12px;	
+	padding: 0px;
+	text-align: left;
+	padding: 0px 0px 0px 14px;
+	
+}
+
+#caixatitulo tr{
+	width:391px;
+	height: 17px;
+	padding:0px;
+}
+
+#botaoentrar{
+	color: white;
+	Font-weight: bolder;
+	background-color: #6079ab;
+	display: inline-block;
+	padding: 0px;
+	border: 1px solid #2f477a;
+	font-size: 12px;
+
+}
+
+
+/* fim do cabeçalho */
+
+/*inicio corpo */
+body{
+	margin: 0px;
+	
+}
+
+#gradiente{
+	width: 1349px;
+	height: 622px;
+	margin-top: 0px;
+	background-image: linear-gradient(to bottom, #ffffff, #d5dae9); /*cria o degradê de fundo */
+	margin: 0px;
+}
+
+#gradienteConteudo{
+	width: 980px;
+	height:622px;
+	margin:auto;
+}
+
+
+#gradienteEsquerda {
+	width: 560px;
+	height: 326px;
+	float: left;
+	font-family: helvetica,​arial,​sans-serif;
+	font-size:	20px;
+	font-weight: bold;
+	word-spacing:	-1px;
+	line-height:	29px;
+	margin: 40px 15px 0px 0px auto;
+}
+
+#gradienteEsquerda img{
+	margin-right: 15px;
+}
+
+#gradienteEsquerda p{
+	margin: 40px 15px 0px 0px;
+	color:	#0e385f;
+}
+
+
+#gradienteDireita{
+	width: 400px;
+	height: 622px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+#gradienteDireita p{
+	font-family:	helvetica,​arial,​sans-serif;
+	font-size:	18px;
+	font-weight:	400;
+	color:	rgb(20,​ 24,​ 35);
+	line-height:	24.1167px;
+	direction:	ltr;
+	margin-top:	10px;
+	margin-bottom:	5px;
+}
+
+#conta{
+	width: 399px;
+	height: 79px;
+	font-family: helvetica,​arial,​sans-serif;
+	padding: 20px 0px;
+}
+
+#conta h1{
+	width: 399px;
+	height: 48px;
+	font-size:	36px;
+	font-weight: 700;
+	color:	#333333;
+	line-height:	48.2333px;
+	margin: 0px 0px 5px 0px;
+}
+
+#conta h2{
+	width: 399px;
+	height: 25px;
+	font-size:	19px;
+	font-weight:	400;
+	color:	rgb(20,​ 24,​ 35);
+	line-height:	25.4667px;
+	margin: 0px;
+}
+
+.nomeSobre{
+	width:172px;
+	height:21px;
+	padding: 8px 8px;
+	margin: 0px 8px 10px 0px;
+	font-family: helvetica,​arial,​sans-serif;
+	font-size: 18px;
+	color:	rgb(0,​ 0,​ 0);
+	line-height:	22px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+
+.sobre{
+	
+	width:172px;
+	height:21px;
+	padding: 8px 8px;
+	margin-right:1px;
+	font-family: helvetica,​arial,​sans-serif;
+	font-size: 18px;
+	color:	rgb(0,​ 0,​ 0);
+	line-height:	22px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+
+.dados{
+	width: 377px;
+	height: 22px;
+	padding: 8px 8px;
+	margin: 4px 1px;
+	font-family: helvetica,​arial,​sans-serif;
+	font-size: 18px;
+	color:	rgb(0,​ 0,​ 0);
+	line-height:	22px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+
+div#nascimento{
+	width:200px;
+	display: inline-block;
+}
+
+div#nascimento p{
+	font-family: helvetica,​arial,​sans-serif;
+	font-size:	11px;
+	color:	rgb(59,​ 89,​ 152);
+	text-decoration:	none;
+	line-height:	14.7333px;
+	vertical-align:	middle;
+	margin: 0px 0px 0px 10px;
+	cursor: pointer;
+	text-decoration: none solid rgb(59,​ 89,​ 152);
+	display: inline-block;
+	padding: 0px;
+
+	
+}
+
+
+.linhaSexo{
+	font-family: helvetica,​arial,​sans-serif;
+	font-size:	12px;
+	color:	rgb(20,​ 24,​ 35);
+	line-height:	16.0833px;	
+	margin-top: 10px;
+}
+
+p#concordo{
+	font-family:	helvetica,​arial,​sans-serif;
+	font-size:	11px;
+	color: rgb(119,​ 119,​ 119);
+	line-height:	14.7333px;
+}
+
+button#abrirConta{
+	width:200px;
+	height: 40px;
+	padding: 7px 20px;
+	margin: 10px 0px;
+	font-family:	"Freight Sans Bold",​helvetica,​arial,​sans-serif;
+	font-size:	19px;
+	font-weight:	700;
+	letter-spacing:	1px;
+	line-height:	23.9333px;
+	color: white;
+	text-align: center;
+	background-color: #619f4e;
+	border-radius: 5px;
+	border: 1px solid #65aa53;
+	
+	
+
+	
+}
+
+p#pagina{
+	font-family: 11px;
+	font-weight: 700;
+	font-size: 11px;
+	color: #666;
+	line-height:	14.7333px;
+	margin-top:	10px;
+	padding-top:	15px;
+	border-top:	1px solid #a0a9c0;
+	margin-top: 10px;
+
+}
+
+#footer{
+	width:980px;
+	height: 137px;
+	margin: auto;
+}
+
+#linguagens li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-left:10px;
+}
+
+#linguagens ul{
+		margin:0px;
+		padding:0px;
+		display: inline-block;
+}
+.lin{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	font-family: helvetica,​arial,​sans-serif;
+	font-size:	12px;
+}
+
+
+
+td.primeirapalavra{
+	padding-left: 0px;
+}
+
+
+a.lin{
+	padding-left: 0px;
+}
+
+a.pcanto{
+	padding-left:0px;
+}
+
+
+#mapasite{
+	width:980px;
+	height: 137px;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 8px;
+	border-top: 1px solid #ccc;
+}
+
+#mapasite table{
+	padding-left: 0px;
+	border: 0px;
+}
+
+
+#mapasite tr{
+	padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
